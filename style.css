@@ -127,6 +127,23 @@ html {
     border-radius: 2rem;
 }
 
+#drag-1, #drag-2{
+    cursor: move; 
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+#drag-1:active, #drag-2:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.project-list::-webkit-scrollbar {
+    display: none;
+}
+
 .project-item {
     display: inline-block;
     background-color: #fafafa;
@@ -169,21 +186,4 @@ footer {
 
 footer p {
     text-align: center;
-}
-
-#drag-1, #drag-2{
-    cursor: move; 
-    cursor: grab;
-    cursor: -moz-grab;
-    cursor: -webkit-grab;
-}
-
-#drag-1:active, #drag-2:active {
-    cursor: grabbing;
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing;
-}
-
-.project-list::-webkit-scrollbar {
-    display: none;
 }
