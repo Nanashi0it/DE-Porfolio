@@ -1,0 +1,189 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fafafa;
+    color: #000000;
+    margin-top: 5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.site-header .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.site-header .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+  
+.site-header .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 7rem 4rem;
+}
+
+.profile-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.profile-img{
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1rem;
+}
+
+.text {
+    text-align: center;
+    font-weight: 600;
+    color: #555555;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #666666;
+}
+
+.btn-light:hover {
+    background-color: #292b2c;
+    color: #ffffff;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-style {
+    font-weight: 600;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border: #353535 0.1rem solid;
+}
+
+#about {
+    padding: 6rem 1rem;
+}
+
+.about-body {
+    text-align: center;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.box {
+    background-color: #fafafa;
+    border-radius: 2rem;
+    border: #777777 3px solid;
+    padding: 2rem;
+    margin: 1.5rem;
+}
+
+#skills {
+    padding: 4rem 1rem;
+}
+
+.skill-body {
+    text-align: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+#projects {
+    padding: 5rem 1rem;
+}
+
+.project-list {
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #aaaaaa;
+    border-radius: 2rem;
+}
+
+.project-item {
+    display: inline-block;
+    background-color: #fafafa;
+    border-radius: 2rem;
+    border: #777777 3px solid;
+    padding: 2rem;
+    margin: 1.5rem;
+    width: 300px;
+    height: 420px;
+    overflow-wrap: break-word;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: auto;
+}
+
+#contact {
+    padding: 4rem 1rem;
+}
+
+.contact-body {
+    font-size: larger;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.contact-icon {
+    height: 2.5rem;
+}
+
+.email-icon {
+    height: 3rem;
+}
+
+footer {
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+#drag-1, #drag-2{
+    cursor: move; 
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+#drag-1:active, #drag-2:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
