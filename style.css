@@ -184,6 +184,6 @@ footer p {
     cursor: -webkit-grabbing;
 }
 
-::-webkit-scrollbar {
+.project-list::-webkit-scrollbar {
     display: none;
 }
